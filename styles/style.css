@@ -1,0 +1,98 @@
+:root{
+  --bg-color-blue:#05194B;
+  --bg-color-orange:#cf5d13;
+  --bg-color-conteudo:white;
+  --font-color-principal: black;
+  --font-size-text: 1.2rem;
+  --font-family-principal: "Arial";
+}
+
+html, body {
+height: 100%;
+margin: 0;
+}
+
+body {
+  background: linear-gradient(to right, var(--bg-color-orange) 50%,  var(--bg-color-blue)50%);
+  
+}
+.conteudo{
+  height: 100%;
+  margin: 2% 10%;
+  width: auto;
+  text-align: center;
+  font-family: var(--font-family-principal);
+  background-color: var(--bg-color-conteudo);
+}
+
+
+.pagina_principal{
+  display: flex;
+  flex-direction: row;
+}
+
+.links_navegacao{
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  
+}
+.div_links_navegacao{
+  display: flex;
+  padding: 2% 10% 5% 10%;
+  justify-content: space-around;
+}
+
+.div_links_navegacao :hover{
+  color: gray;
+  text-decoration: underline gray;
+
+}
+
+.titulo_pagina{
+  margin-bottom: 2%;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.link_contatos{
+  padding-bottom: 2%;
+  text-decoration: none;
+  color: black;  
+}
+
+.link_contatos :hover{
+  color: gray;
+  text-decoration: underline gray;
+}
+
+.texto_sobremim{
+  margin: 5%;
+  text-align: justify;
+}
+
+.pagina_1_elements{
+  display: flex;
+  justify-content: space-around;
+  align-items:center ;
+  margin: 5%;
+}
+
+.link_projeto{
+  text-decoration: none;
+  color: black;
+}
+
+.img_projeto{
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.texto_inicial{
+  width: 50%;
+}
+
+.minha_foto{
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
